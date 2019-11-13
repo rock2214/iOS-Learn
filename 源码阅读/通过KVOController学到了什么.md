@@ -316,4 +316,4 @@ NSAssert(0 != keyPath.length && **NULL** != block, @"missing required parameters
 - 使用锁的方式
 - 使用范型的方式
 - 不过分使用属性，能使用成员变量的情况下使用成员变量
-- 数据结构的使用方式 `_FBKVOInfo` 类似于瘦模型，没有过多的逻辑操作，在定义变量时候要注意内存管理，适当的使用weak
+- 数据结构的使用方式 `_FBKVOInfo` 类似于瘦模型，没有过多的逻辑操作，在定义变量时候要注意内存管理，适当的使用weak。
